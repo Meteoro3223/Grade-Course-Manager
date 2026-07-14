@@ -66,6 +66,16 @@ http://localhost:5173
 
 Open this address in your browser.
 
+## Environment Variables
+
+Before running the backend, create a `.env` file inside the `backend` folder using `.env.example` as a template.
+
+Example:
+
+```text
+MONGO_URI=your_mongodb_connection_string
+```
+
 ## Project Structure
 
 ```
